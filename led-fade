@@ -1,0 +1,25 @@
+  1.BRIGHTNESS
+ void setup() {  // initialize digital pin 12 as an output.
+   pinMode(12, OUTPUT);
+}
+
+void loop() {
+   digitalWrite(12, HIGH); // turn the LED on (HIGH is the voltage level)
+   delayMicrosecond(200); // wait for a second
+   digitalWrite(12, LOW); // turn the LED off by making the voltage LOW 
+   delayMicrosecond(1); // wait for a second
+}
+
+
+
+2.FADE
+ void setup() {  // initialize digital pin 12 as an output.
+   pinMode(12, OUTPUT);
+}
+
+void loop() {
+   digitalWrite(12, HIGH); // turn the LED on (HIGH is the voltage level)
+   delayMicrosecond(1); // wait for a second
+   digitalWrite(12, LOW); // turn the LED off by making the voltage LOW 
+   delayMicrosecond(200); //wait for a second
+}
